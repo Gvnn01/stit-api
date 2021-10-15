@@ -16,8 +16,4 @@ routes.get(
   showProducts.showProductsByRoles
 );
 
-routes.post("/logout", (req, res) => {
-  res.end();
-});
-
 module.exports = routes;
